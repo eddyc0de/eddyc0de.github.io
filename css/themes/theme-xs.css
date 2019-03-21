@@ -8,6 +8,10 @@ body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+@keyframes text-hero {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
 .span-bold {
 	font-weight: 700;
 }
@@ -15,21 +19,23 @@ body {
 	text-transform: uppercase;
 }
 header {
-	height: 100%;
+	height: 100%;	
 }
 header .span-hero-image {
-	background-image: url("../../images/hero-image2.jpg");
+	background-image: url("../../images/hero-image1-min.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	height: 100%;
 	margin-top: -56px;
+	
 }
-header .span-hero-image .span-header-title {
+header .span-header-title {
 	width: 100%;
 	font-weight: 700;
 	font-size: 5rem;
 	text-shadow: 4px 4px 10px #000;
+	animation: text-hero 5s;
 }
 .navbar-brand span {
 	color: red;
