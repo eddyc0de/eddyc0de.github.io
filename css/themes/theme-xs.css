@@ -43,3 +43,12 @@ header .span-header-title {
 ul {
 	list-style-type: none;
 }
+.span-tech-stack .span-svg-html5,
+.span-tech-stack .span-svg-css3,
+.span-tech-stack .span-svg-javascript,
+.span-tech-stack .span-svg-reactjs,
+.span-tech-stack .span-svg-nodejs,
+.span-tech-stack .span-svg-bootstrap4 {
+	width: 128px;
+	height: 128px;
+}
