@@ -8,6 +8,12 @@ body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+header {
+	height: 100%;	
+}
+ul {
+	list-style-type: none;
+}
 @keyframes text-hero {
 	from {opacity: 0;}
 	to {opacity: 1;}
@@ -17,9 +23,6 @@ body {
 }
 .span-uppercase {
 	text-transform: uppercase;
-}
-header {
-	height: 100%;	
 }
 .span-hero-image {
 	background-image: url("../../images/hero-image-alicante.jpg");
@@ -45,20 +48,16 @@ header {
 .navbar-brand span {
 	color: red;
 }
-ul {
-	list-style-type: none;
-}
-.span-tech-stack .span-svg-html5,
-.span-tech-stack .span-svg-css3,
-.span-tech-stack .span-svg-javascript,
-.span-tech-stack .span-svg-reactjs,
-.span-tech-stack .span-svg-nodejs,
-.span-tech-stack .span-svg-bootstrap4,
-.span-tech-stack .span-svg-sass  {
+.span-tech-row .span-svg-html5,
+.span-tech-row .span-svg-css3,
+.span-tech-row .span-svg-javascript,
+.span-tech-row .span-svg-reactjs,
+.span-tech-row .span-svg-nodejs,
+.span-tech-row .span-svg-bootstrap4,
+.span-tech-row .span-svg-sass  {
 	width: 128px;
 	height: 128px;
 }
-
 .span-tech-row {
 	background: #0F2027;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
