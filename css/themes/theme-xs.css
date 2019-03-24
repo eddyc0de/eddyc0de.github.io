@@ -21,8 +21,8 @@ body {
 header {
 	height: 100%;	
 }
-header .span-hero-image {
-	background-image: url("../../images/hero-image1-min.jpg");
+.span-hero-image {
+	background-image: url("../../images/hero-image-alicante.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -30,12 +30,17 @@ header .span-hero-image {
 	margin-top: -56px;
 	
 }
-header .span-header-title {
+.span-header-title {
 	width: 100%;
-	font-weight: 700;
-	font-size: 5rem;
-	text-shadow: 4px 4px 10px #000;
-	animation: text-hero 5s;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #fff;
+    text-shadow: 4px 4px 10px #000;
+    animation: text-hero 5s;
+    border: 1px solid;
+    margin: 0 100px;
+	border-radius: 10px;
+	padding: 40px;
 }
 .navbar-brand span {
 	color: red;
@@ -48,7 +53,18 @@ ul {
 .span-tech-stack .span-svg-javascript,
 .span-tech-stack .span-svg-reactjs,
 .span-tech-stack .span-svg-nodejs,
-.span-tech-stack .span-svg-bootstrap4 {
+.span-tech-stack .span-svg-bootstrap4,
+.span-tech-stack .span-svg-sass  {
 	width: 128px;
 	height: 128px;
+}
+
+.span-tech-row {
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.span-tech-row h1 {
+	color: #fff;
+	margin:0;
 }
