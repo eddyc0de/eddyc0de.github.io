@@ -1,0 +1,23 @@
+{
+  "name": "eddyspa.github.io",
+  "version": "1.0.0",
+  "description": "Techonologies used in this project:   - HTML5   - CSS3   - BOOTSTRAP 4   - FONT-AWESOME   - JavaScript/jQuery",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyspa/eddyspa.github.io.git"
+  },
+  "author": "Edgar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddyspa/eddyspa.github.io/issues"
+  },
+  "homepage": "https://github.com/eddyspa/eddyspa.github.io#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
