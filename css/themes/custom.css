@@ -9,6 +9,9 @@
 	grey: #343a40;
 */
 
+/******************************/
+/*** REUSABLE COMPONENTS ***/
+/******************************/
 html,
 body {
 	height: 100%;
@@ -17,14 +20,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 header {
-	height: 100%;	
+	height: 100vh;	
 }
 ul {
 	list-style-type: none;
-}
-@keyframes text-hero {
-	from {opacity: 0;}
-	to {opacity: 1;}
 }
 .span-bold {
 	font-weight: 700;
@@ -32,6 +31,18 @@ ul {
 .span-uppercase {
 	text-transform: uppercase;
 }
+
+/******************************/
+/*** ANIMATIONS ***/
+/******************************/
+@keyframes text-hero {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+/******************************/
+/*** HEADER ***/
+/******************************/
 .span-hero-image {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../images/hero-image.jpg");
 	background-size: cover;
@@ -41,28 +52,28 @@ ul {
 	margin-top: -56px;
 	
 }
+.span-hero-image a {
+	background-color: #fff;
+}
 .span-header-title {
-	width: 80%;
 	margin: 0 auto;
-    font-weight: 700;
-    color: #000;
+    color: #fff;
     text-shadow: 4px 4px 10px #000;
     animation: text-hero 4s;
-    padding: 40px;
-    background-color: rgba(255, 255, 255, 0.8);
 }
 .span-header-title p {
-	margin: 40px auto;
-	width: 60%;
+	margin: 20px auto;
+	width: 70%;
 }
 .span-header-title img {
     height: 40px;
     width: auto;
     margin: 20px 20px;
 }
-.navbar-brand span {
-	color: red;
-}
+
+/******************************/
+/*** TECH SECTION ***/
+/******************************/
 .span-tech-row .span-svg-html5,
 .span-tech-row .span-svg-css3,
 .span-tech-row .span-svg-javascript,
@@ -97,8 +108,17 @@ ul {
 	margin:0;
 }
 
+/******************************/
+/*** FOOTER ***/
+/******************************/
 footer {
 	background-color: #343a40;
 	color: #fff;
 	height: 12vh;
+}
+
+@media (min-with: 576px) {
+	footer {
+		background-color: red;
+	}
 }

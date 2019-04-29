@@ -1,6 +1,8 @@
 /******************************/
 /*** TABLET ***/
 /******************************/
-@media only screen and (min-with: 576px) {
-
+@media (min-with: 576px) {
+	footer {
+		background-color: red;
+	}
 }
