@@ -25,12 +25,6 @@ header {
 ul {
 	list-style-type: none;
 }
-.span-bold {
-	font-weight: 700;
-}
-.span-uppercase {
-	text-transform: uppercase;
-}
 
 /******************************/
 /*** ANIMATIONS ***/
@@ -49,14 +43,13 @@ ul {
 	background-position: center;
 	background-attachment: fixed;
     height: 100vh;
-	margin-top: -56px;
+	/*margin-top: -56px;*/
 	
 }
 .span-hero-image a {
 	background-color: #fff;
 }
 .span-header-title {
-	margin: 0 auto;
     color: #fff;
     text-shadow: 4px 4px 10px #000;
     animation: text-hero 4s;
@@ -115,10 +108,4 @@ footer {
 	background-color: #343a40;
 	color: #fff;
 	height: 12vh;
-}
-
-@media (min-with: 576px) {
-	footer {
-		background-color: red;
-	}
 }
