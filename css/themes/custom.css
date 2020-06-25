@@ -67,14 +67,7 @@ ul {
 /******************************/
 /*** TECH SECTION ***/
 /******************************/
-.span-tech-row .span-svg-html5,
-.span-tech-row .span-svg-css3,
-.span-tech-row .span-svg-javascript,
-.span-tech-row .span-svg-jquery,
-.span-tech-row .span-svg-reactjs,
-.span-tech-row .span-svg-nodejs,
-.span-tech-row .span-svg-bootstrap4,
-.span-tech-row .span-svg-sass  {
+.span-tech-row .span-svg-tech {
 	width: 128px;
 	height: 128px;
 }
