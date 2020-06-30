@@ -38,11 +38,11 @@ ul {
 /*** HEADER ***/
 /******************************/
 .span-hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../images/hero-image.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets//img//hero-image.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-    height: 100vh;
+	height: 100vh;
 	/*margin-top: -56px;*/
 	
 }
@@ -109,4 +109,18 @@ footer {
 	background-color: #343a40;
 	color: #fff;
 	height: 12vh;
+}
+
+@media only screen and (max-width: 576px) {
+ .display-4 {
+	 font-size: 2.5rem;
+ }
+
+ h1 {
+	font-size: 2rem;
+ }
+
+ h4 {
+	 font-size: 1rem;
+ }
 }
