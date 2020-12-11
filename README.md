@@ -1,4 +1,4 @@
-# eddyspa.github.io
+# eddyc0de.github.io
 
 Techonologies used in this project:
   - HTML5
