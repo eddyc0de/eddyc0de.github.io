@@ -1,52 +1,45 @@
 /******************************/
-/*** MOBILE FIRST ***/
-/******************************/
-
-/******************************/
-/*** COLORS ***/
-/******************************/
-/*
-	grey: #343a40;
-*/
-
-/******************************/
 /*** REUSABLE COMPONENTS ***/
 /******************************/
 html,
 body {
-	height: 100%;
-	padding: 0;
-	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 header {
-	height: 100vh;	
+    height: 100vh;
 }
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 /******************************/
 /*** ANIMATIONS ***/
 /******************************/
 @keyframes text-hero {
-	from {opacity: 0;}
-	to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /******************************/
 /*** HEADER ***/
 /******************************/
 .span-hero-image {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../../assets/img//hero-image.jpg");
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	height: 100vh;
-	
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../../assets/img//hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
 }
 .span-hero-image a {
-	background-color: #fff;
+    background-color: #fff;
 }
 .span-header-title {
     color: #fff;
@@ -54,8 +47,8 @@ ul {
     animation: text-hero 4s;
 }
 .span-header-title p {
-	margin: 20px auto;
-	width: 70%;
+    margin: 20px auto;
+    width: 70%;
 }
 .span-header-title img {
     height: 40px;
@@ -67,8 +60,8 @@ ul {
 /*** TECH SECTION ***/
 /******************************/
 .span-tech-row .span-svg-tech {
-	width: 128px;
-	height: 128px;
+    width: 128px;
+    height: 128px;
 }
 .span-tech-row .card {
     transition: transform 1.1s;
@@ -80,46 +73,56 @@ ul {
 .span-tech-row .card:hover,
 .span-tech-row .card:hover,
 .span-tech-row .card:hover,
-.span-tech-row .card:hover  {
+.span-tech-row .card:hover {
     transform: scale(1.1);
 }
 .span-tech-row {
-	background: #0F2027;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	padding: 40px 0;
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to top,
+        #2c5364,
+        #203a43,
+        #0f2027
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to top,
+        #2c5364,
+        #203a43,
+        #0f2027
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 40px 0;
 }
 .span-tech-row h1 {
-	color: #fff;
-	margin:0;
+    color: #fff;
+    margin: 0;
 }
 
 /******************************/
 /*** PROJECTS ***/
 /******************************/
 .span-tech-projects {
-	padding: 40px 0;
+    padding: 40px 0;
 }
 
 /******************************/
 /*** FOOTER ***/
 /******************************/
 footer {
-	background-color: #343a40;
-	color: #fff;
-	height: 12vh;
+    background-color: #343a40;
+    color: #fff;
+    height: 12vh;
 }
 
 @media only screen and (max-width: 576px) {
- .display-4 {
-	 font-size: 2.5rem;
- }
+    .display-4 {
+        font-size: 2.5rem;
+    }
 
- h1 {
-	font-size: 1.3rem;
- }
+    h1 {
+        font-size: 1.3rem;
+    }
 
- h4 {
-	 font-size: 1rem;
- }
+    h4 {
+        font-size: 1rem;
+    }
 }
